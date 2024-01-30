@@ -174,8 +174,7 @@ export default function Step9() {
         </div>
         <div className="mt-4">
           <label className="container_check text-xs font-visby">
-            Mit dem Absenden meiner Anfrage akzeptiere ich die AGB und, dass ich
-            die Datenschutzerklärung zur Kenntnis genommen habe.
+          Mit dem Absenden meiner Anfrage akzeptiere ich die AGB und bestätige, dass ich die Hinweise zum Datenschutz zur Kenntnis genommen habe. Mit der projektbezogenen Kontaktaufnahme bin ich einverstanden.
             <input type="checkbox" {...register("agree", { required: true })} />
             <span className="checkmark" />
           </label>
@@ -214,10 +213,7 @@ export default function Step9() {
             </span>
           </button>
         </div>
-        <p className="mt-4 font-visby">
-          Wir können Ihnen Informationen über ähnliche Produkte und Leistungen
-          per E-Mail zusenden. Ein Widerspruch ist jederzeit hier möglich.
-        </p>
+      
       </form>
     </div>
   );
