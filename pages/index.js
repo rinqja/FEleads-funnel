@@ -205,7 +205,7 @@ export default function Home() {
             <div className="font-visby reltive lg:px-0 px-6 md:py-0 py-6 flex justify-between items-center">
               <div className={step != 9 && step != 10 ? "block" : "hidden"}>
                 <h1 className="font-bold text-base bottomLine relative mb-3">
-                  FEleads
+                  FE-Leads
                 </h1>
                 <p className="text-[#AFA9A9] text-sm max-w-md">
                   Jetzt die individuelle Solar-Beratung nutzen und Ihr
